@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="134ca9bb-1878-48b3-b279-b48f6ea976f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/migrations/0002_alter_books_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/migrations/0003_alter_books_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/library800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19004_Hd0xwj1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19004_b0yF9nI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19004_gMCkmiU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19004_uZooRH9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/books/sdc19021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdc19005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdc19024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/szkolnabiblioteka_v1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/szkolnabiblioteka_v1/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21sCdC8ngJSYQIWf95j5qpTvP9X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/books" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/books" />
+      <recent name="$PROJECT_DIR$/books/templates/books/static" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/books/templates/books" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="szkolnabiblioteka_v1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="szkolnabiblioteka_v1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="134ca9bb-1878-48b3-b279-b48f6ea976f1" name="Changes" comment="" />
+      <created>1638720493555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638720493555</updated>
+      <workItem from="1638720494963" duration="840000" />
+      <workItem from="1638729109494" duration="4309000" />
+      <workItem from="1638815858294" duration="1223000" />
+      <workItem from="1638893654840" duration="25000" />
+      <workItem from="1638988673852" duration="71000" />
+      <workItem from="1639069892857" duration="5179000" />
+      <workItem from="1639141004200" duration="2636000" />
+      <workItem from="1639154169790" duration="11000" />
+      <workItem from="1639489067869" duration="7931000" />
+      <workItem from="1639505056402" duration="599000" />
+      <workItem from="1639684443293" duration="2139000" />
+      <workItem from="1639759980388" duration="5137000" />
+      <workItem from="1639807420531" duration="1651000" />
+      <workItem from="1639809347903" duration="619000" />
+      <workItem from="1639822912267" duration="1073000" />
+      <workItem from="1639836569811" duration="14394000" />
+      <workItem from="1639851250805" duration="236000" />
+      <workItem from="1639851507966" duration="170000" />
+      <workItem from="1639851840988" duration="3797000" />
+      <workItem from="1639855663330" duration="685000" />
+      <workItem from="1639882424843" duration="19000" />
+      <workItem from="1639882583641" duration="5303000" />
+      <workItem from="1640106496362" duration="3171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

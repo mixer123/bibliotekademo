@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zaloguj</title>
+</head>
+<body>
+
+<div >
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form }}
+{#        <input type="text" name="username" placeholder="Nazwa użytkownika">#}
+{#        <input type="password" name="password" placeholder="Hasło">#}
+        <input type="submit" value="Zapisz">
+    </form>
+</div>
+
+{##}
+{#{% for message in messages%}#}
+{#    <div >{{message}}</div>#}
+{#    {% endfor %}#}
+{#<div >Posiadasz konto ? <a href="{% url 'register' %}">Utwórz</a> </div>#}
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+{% extends 'books/index.html' %}
+{% load static %}
+
+{%block title%} Książki wypożyczone {%endblock%}
+{% block content %}
+<h2> Statystyka wypożyczeń czytelników</h2>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+
+      <th scope="col">#</th>
+      <th scope="col">Imię</th>
+      <th scope="col">Nazwisko</th>
+      <th scope="col">Klasa</th>
+        <th scope="col">Ilość</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in ilosc_wyp_czytelnik %}
+    <tr>
+      <th scope="row">{{ i.czytelnik_id }}</th>
+      <td>{{ i.czytelnik__name}}</td>
+      <td>{{ i.czytelnik__family}} </td>
+      <td>{{ i.czytelnik__klasa_id__name }}</td>
+      <td>{{ i.ilosc}}</td>
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+
+
+
+
+
+{% endblock %}

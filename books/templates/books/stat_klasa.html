@@ -1,0 +1,60 @@
+{% extends 'books/index.html' %}
+{% load static %}
+
+{%block title%} Książki wypożyczone {%endblock%}
+{% block content %}
+
+<h2> Miesięczna statystyka wypożyczeń klas w semestrze 1</h2>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+
+      <th scope="col"></th>
+      <th scope="col">Klasa</th>
+      <th scope="col">Miesiąc</th>
+      <th scope="col">Ilość</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for i in ilosc_wyp_klasa_sem_1 %}
+
+
+    <tr>
+      <th scope="row">#</th>
+      <td>{{ i.czytelnik__klasa_id__name}}</td>
+      <td>{{ i.month}}</td>
+      <td>{{ i.ilosc}}</td>
+
+    </tr>
+
+    {% endfor %}
+
+  </tbody>
+</table>
+
+    {% if ile2 > 0 %}
+            <h2> Miesięczna statystyka wypożyczeń klas w semestrze 2</h2>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Klasa</th>
+                      <th scope="col">Miesiąc</th>
+                      <th scope="col">Ilość</th>
+                </tr>
+              </thead>
+              <tbody>
+                    {% for i in ilosc_wyp_klasa_sem_2 %}
+                        <tr>
+                              <th scope="row">#</th>
+                              <td>{{ i.czytelnik__klasa_id__name}}</td>
+                              <td>{{ i.month}}</td>
+                              <td>{{ i.ilosc}}</td>
+                        </tr>
+                    {% endfor %}
+              </tbody>
+            </table>
+    {% endif %}
+{% endblock %}
